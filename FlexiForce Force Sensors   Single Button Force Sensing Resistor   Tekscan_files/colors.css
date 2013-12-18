@@ -1,0 +1,72 @@
+/* main page elements */
+#container { background-image:url(/sites/default/files/tekscan-background.gif); }	/* gradient*/
+#footer {background-color:white;}
+#header, .content-header, .footer { background-color:white;}
+div.tabs {background-color:white;}
+#content { background-color:transparent; }
+.system-content, .content-content {background-color: white;}
+h1, h2 { color: #0053a0; }
+h3, h4, h5, h6, .system-sidebar-header, .sidebar-header,
+.node-type-force-sensor-page span.spec-title, span.form-title, .related-item h4 a, p.division-title			{ color:#0053a0; }
+
+a.header-contact, a.header-contact:visited {color:#e47804;}
+
+a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:hover span {color:red;}
+.system-sidebar-container, .sidebar-container { background:#d5d5d5; border: 1px solid #a7a5a5;}
+.system-sidebar .related-item a, .system-sidebar .related-item h4 a, .sidebar .related-item h4 a { color:black; }
+.system-sidebar-content, .sidebar-content {}
+.hidden-bg { background-color:black; } 
+.hidden-contact-form-content, .hidden-quote-form { background-color:transparent; background:#363636; }
+.hidden-form-content .section-title, .hidden-form-content table thead td {  color:#e47804; }
+
+.filter-results tr.odd-row { background-color:#d3d3d3; }
+
+/* independent sensor catalog selectors ------------------------ */
+/* search form */
+#display_options th, #length_unit_selectors th { color:#990000; }
+.close_help {color:black}
+/*search results --*/
+/* defaults */
+.even_row td, .odd_row td { background-color:white;}
+.header_row td{ background-color:white; }
+
+/* box */
+tr.box_even_row, tr.box_odd_row, .box_even_row td, .box_odd_row td{ border-color:#e8edff; background-color:white; }
+.box_header_row, .box_header_row td{ background-color:#cccccc; }
+.box_hover_row, .box_hover_row td, .selected-model, .selected-model td {background:#d0dafd;color:#339;}
+
+/*newspaper */
+.news_row .news_row td { background-color: white; color:black; }
+.news_header_row, .news_header_row td { border-collapse:separate; background-color:white; font-weight:bold; }
+.news_hover_row, .news_hover_row td {color:#339; background:#d0dafd;}
+
+td.search-match { background-color:#99ccff; }
+.thickness_warning { font-style:italic; color:#0066cc; }
+/* slideshows ------------------------------------------------*/
+div.galleria-ss-container { background-color:#f8f7f5;}
+div.thumbs { margin-top:5px; padding: 20px 5px 20px 5px; background: #f8f7f5; border-style:solid; border-width: 1px 0px; } 
+
+.stage-bg	{ background-color:black; }
+.stage-wrapper { background-color:#363636; }
+.stage-content { background-color:#363636; }
+.stage-content p { color:white; }
+a.stage-close { color:grey;}
+
+/* catalog */
+.node-type-sensor-catalog, .node-type-catalog-search { background-color: white;}
+.shape-container table tr.section-title-row, .shape-container table tr.title-row, .shape-container tr.sort-controls,
+.shape-container tr.unit-row {background-color:#a7a5a5;}
+/* hidden hover imgs */
+.sensor_thumb { background-color:white; }
+/* catalog tables */
+#sensor-catalog tr.hover-row td {background-color:#d0dafd; color:#339; }
+a.sort-link { color: blue; }
+a.sort-link-active { color:#e47804; font-weight:bold; text-decoration:none;}
+
+/* suckerfish (dropdown menus)*/
+
+
+/* support / kb */
+.node-type-static-page{background-color:white;}
+.support-label {color:#0053a0}
+.reach-support {background-color:#fffed8;}

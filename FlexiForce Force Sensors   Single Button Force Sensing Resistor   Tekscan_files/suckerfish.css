@@ -1,0 +1,41 @@
+
+#nav-menu {font-family:"Century Gothic", Sans-serif, serif;}
+#nav-menu > div > div { background-color:#0099ff; }
+#nav-menu > div > div > ul { padding:0; margin:0; list-style:none; list-style-type:none; width:auto; 
+                  } 
+                 
+#nav-menu ul li { list-style:none; float:left; /* border:2px solid transparent; */}
+#nav-menu > div > div > ul > li { margin:0; /* padding:0 3.5%; */ border-left:2px solid #0000cc;}
+#nav-menu > div > div > ul > li.first { border-left:0;}
+#nav-menu li ul { /* width:16em; */ position:absolute; z-index:99; display:none;}
+#nav-menu li ul li { /* border:1px solid transparent; width:97%; */ float: none; display: block; padding:0; margin:0;}
+#nav-menu li ul li a { /* border:1px solid transparent; width:97%; */ display: block; padding: 4px 3px; margin:0;}
+#nav-menu ul li, #nav-menu li ul li, #nav-menu ul{  }
+#nav-menu a { color:#333333/*#626469*/; text-decoration:none; text-transform:uppercase;}
+
+#nav-menu li.sfHover, #nav-menu li.sfHover ul { background-color:#e47804; z-index:100; }
+
+#nav-menu li.sfHover > a, #nav-menu li.sfHover a:hover { color:white; font-weight:bold;}
+#nav-menu li.sfActive { background-color:#e47804; /*border:2px solid white;*/
+                /*border-left:2px solid #0000cc; border-right:2px solid #e47805;*/}
+#nav-menu li.sfActive > a {color:white; font-weight:bold;}
+
+#nav-menu ul li {
+	list-style-image: none;
+}
+#nav-menu > div > div > ul > li {
+	padding: 0px;
+	text-align: center;
+}
+#nav-menu > div > div > ul > li > a {
+  padding: 2px 30px;
+  display: block;
+}
+#nav-menu > div > div > ul > li > ul {
+	padding: 8px;
+}
+/*
+#nav-menu li.sfHover.expanded { padding-left: 1px; padding-right: 1px }
+#nav-menu li.sfHover.leaf { padding-left: 1px; padding-right: 0px; }
+#nav-menu li.sfHover.first { padding-left: 0px; padding-right: 0px }
+*/

@@ -1,0 +1,42 @@
+/* header, sidebar */
+
+#header, .sidebar, .division-sidebar, .system-sidebar,
+
+
+
+/* slideshow controls */
+
+a.window-prev, a.window-next 
+
+  {display:none !important;}
+
+
+
+#main_specs table#sensor_specs_outer { width:100%; }
+
+/*#main_specs table#sensor_specs_outer td.density-header { font-size:90%;}*/
+
+#sensor_specs_outer, .pressure_specs {font-size:84%;}
+
+
+
+/*table#compact_catalog_table { width:400px; }*/
+
+/* internal search */
+#catalog_search_results #compact_catalog_table thead tr
+{ background-color:#cccccc !important;; color:black !important;; }
+#catalog_search_results .floating-head { display:none;/*top:970px !important;*/}
+#sensor-diagram {display:none;}
+
+
+/* archive filter pages -- events, news, apps */
+.filter-results table.floating-head{ display:none !important;; }
+.filter-results table.filter-results-table thead tr { color:white !important;; background-color: #e46804 !important; }
+
+
+#sensor-related-equilibrators {display:none !important;}
+table.sticky-header {display:none !important;}
+/*.fieldgroup { display:block !important; }*/
+
+
+

@@ -1,0 +1,79 @@
+.page-container { min-height:100%; width:100%; position:absolute; background:inherit;}
+.clear { clear:both; }
+
+
+/* search form */
+form#sensor_search_form{}
+#sensor_search_holder .form_label, #sensor_search_holder .radio_label  {font-weight:bolder; font-size:87%; font-variant:small-caps;}
+#pressure_label { height:30px; }
+#sensor_search_info h2 { font-size:110%; }
+.search_help {background-image:url("/sites/default/files/sensordb-images/windowBG3.gif"); 
+				position:absolute; width:194px; 
+				height:117px; display:none; padding: 0 6px; 
+				font-style:italic; }
+.close_help {float:right; color:black; font-weight:bold;}
+#sensor_search_holder td { padding: 2px; }
+
+#sensor-diagram {position:relative; top:160px; }
+#sensor-diagram img{ height:400px; width:275px; float:right; position:relative; top:-20px;}
+.internal-warning { font-weight:bold; }
+.density-clarification { font-style:italic; }
+
+/* hidden hover imgs */
+.sensor_thumb img { height:200px; width:300px; }
+.sensor_thumb { position:absolute; border:1px solid black; /* left:700px; */top:300px; z-index:20; display:none; }
+
+/* search results */
+#catalog_search_results > h2, #sensor_search_holder h2 { font-size:110%; font-weight:bold; text-align:left; width:80%;}
+.compact { display:inline; }
+.full, .sensor_data_list{ list-style-type:none; }
+.sensor_data_list{ position:relative; }
+.search_result_item a { font-style:normal; text-decoration:none; padding:1px; }
+.sensor_data_list li { width:100%; }
+#compact_catalog_table, #catalog_search_results .floating-head{ font-size: 90%; text-align:left; border:1px solid black; width:900px;}
+#compact_catalog_table td, #catalog_search_results .floating-head td {padding:3px 4px; }
+.export-controls a.selected-export {}
+
+/* defaults */
+.even_row td, .odd_row td { background-color:white;}
+.header_row { border-collapse:separate; font-weight:bold; text-align:center;}
+.header_row td{ background-color:white; text-align:left;}
+.header_top_row { border-top: 1px solid black; }
+.header_bottom_row { border-bottom: 1px solid black; }
+.header_bottom_row td { }
+
+/* ------------------------------------------- SENSOR CATALOG PAGE -----------------------------------------------*/
+
+.node-type-force-sensor-page h1.sensor_title {  font-size:130%; font-weight:bold; }
+.node-type-force-sensor-page h2, .node-type-force-sensor-page span.spec-title { font-size:115%; padding:1%;}
+.thickness_warning { font-style:italic; }
+.secondary-specs {padding: 2% 1%;}
+.secondary-specs ul { padding-left:5%; }
+.secondary-specs ul li {list-style-type:disc;}
+.secondary-specs .spec-title {font-weight:bold; font-size:105%; }
+
+.sensor-related-models, .sensor-related-maps { display:none;}
+.sensor-related-models ul li, .sensor-related-maps ul li{ list-style-type:none; display:inline;}
+
+#main_specs table#sensor_specs_outer { border: 1px solid black; }
+#main_specs table td, table#pressure_table td { padding: 2px; font-weight: bold;}
+#main_specs table tr.data_row td { border: 1px solid black; text-align: center;}
+#pressure_table td.data_cell {text-align:left; border:1px solid black;}
+.sensor_data > div { padding:1%; }
+.sensor_data ul { margin-left:10px; }
+.sensor_data ul, .sensor_data ul li { list-style-type:disc; }
+
+
+/*.related-item a img { border: 2px solid white; }
+.related-item p, .related-item span, { padding: 1%; }
+.related-item p { font-style:italic; }
+.related-item-title { font-weight:bold; }
+.related-item img { height:100px; width:100px; }
+*/
+.sensor-related-nodes { }
+.sensor-related-nodes .related-item img{ width:100px; height:100px;margin-right: 5px; float:left; border:2px solid black;}
+.sensor-related-nodes .related-item { width:190px; float:left; margin:1.5%; font-size:85%; min-height:225px;}
+.sensor-related-nodes .related-item-title{ min-height:20px; display:block;}
+.sensor-related-nodes h5 { font-variant:small-caps; }
+
+

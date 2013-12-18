@@ -1,0 +1,289 @@
+/* common page elements */
+/*table#permissions thead tr th { width:20px; }*/
+
+table.floating-head {
+}
+.tabberlive { clear:both; }
+/*#user-admin-perm .sticky-enabled th, #user-admin-perm .sticky-header th
+{ padding-left:0 !important; padding-right:0 !important; }
+*/
+h1, h2 { font-weight:bold; }
+h3, h4, h5, h6 { font-variant:small-caps; font-weight:bold; font-size:105%; }
+h1 { font-size:125%;}
+h2 { font-size:110%;} 
+
+h1, h2, h3, h4, h5, h6 { font-family:"Century Gothic", Sans-serif, serif; }
+h3, h4, h5, h6 { text-transform:uppercase;}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em { font-style:italic; font-weight:bold;}
+object { padding:10px; }
+em {font-style:italic;}
+
+/*#sidebar-right{ display:none;}
+.login-container #sidebar-right{ display:block; }
+*/
+
+
+.clear { clear:both; }
+div.messages{background-color:white;  padding:1%;}
+div.messages > div {margin:1%; }
+div.status {border-color:#c7f2c8;}
+img {border:2px solid white; }
+a:hover img { border:2px solid blue; } 
+#header a img {border:none;}
+a.read-more { font-size:smaller; }
+fieldset.search-advanced { display:none; }
+p.slideshow-caption {color:white; font-weight:bold;}
+
+q { font-style:italic; font-size:85%; }   /* image captions */
+cite { font-family:Times New Roman, serif; } /* citation */
+blockquote { font-family:Georgia, serif; padding:10px 35px} /* quotation */
+.form-container {margin:10px;}
+.body-field {margin:10px;}
+span.required-marker {color:red; font-weight:bold;}
+span.required-marker-state {color:blue; font-weight:bold;}
+/* begin top of page [parents] -------------------------------> */
+body {margin:0; border:0 none; z-index:0; font-family:arial; font-size:small; height:100%; width:100%;}
+tbody { border:0 none; }
+#container { position:absolute; width: 100%; min-height:100%; background-repeat:repeat-x;}
+
+#header {position:relative; margin-top:15px; height: 100px; margin-bottom:5px; padding-top:5px;}
+			
+/* header elements */
+.logo-menu{display:block; height:65px; }
+#logo{ display:inline; z-index:100;}    /* float:left -> layout.css */
+#logo img { width:100px; }
+
+#menu{ display:inline; }
+.header-contact-holder{ float:right; padding:10px 5px;}
+span.header-contact-link {}
+.breadcrumb { display:inline;}		
+/* search form */
+#edit-search-block-form-1-wrapper label, #edit-search-theme-form-1-wrapper label { display:none; }
+#block-search-0 { float:right; clear:right; width:auto;}
+#block-search-0 div.block-content{}
+/*form#search-block-form input#edit-submit-1 { background:none; border:none; background-image:url("/sites/default/files/search.gif");}*/
+
+
+/* social media icons */
+.social-media-menu { display:inline-block; width:15%; float:right; padding:5px 0;}
+.social-media-menu ul {display:inline; }
+.social-media-menu ul li { float:left; padding:0 5%;}
+.social-media-menu ul li img { width:20px; height:20px; }
+
+/* nav menu -- see suckerfish.css for css of menu innards */
+#block-menu-primary-links { display:block; border-top: 1px solid #cccccc; padding:5px 0;}
+#content {height:auto; z-index:10;}
+
+/* content, header now have samve width, horiz position */
+#content, #header {width:950px;/*850px; */ position:relative; left:20px;/*20px border:1px solid #cccccc;*/ }
+/* comment the next line out for left-aligned site */
+#content, #header {margin: 10px auto; float: none;}
+#header { width: 930px; padding: 5px 10px; padding-bottom: 1px; }
+
+.content-header { 
+  /*padding:1%; margin:1%; text-align:center; color:#336699; font-weight:bold; font-size:120%; border-width: 1px 1px 2px 1px;
+					border-style:solid; border-color:black; 
+					background:url("http://www.tekscan.net/images/new_bg/bkg_block-title.gif") repeat; */}
+
+.system-content{ float:left; width: 72%; padding:10px;}
+
+.content-content > * { /*margin:1%;*/ }
+.node-type-tekscan-system-general .editor-table table, .node-type-tekscan-system-general .editor-data-table table,
+.node-type-flexi-misc-product .editor-table table, .node-type-flexi-misc-product .editor-data-table table,
+.node-type-flexi-system .editor-table table, .node-type-flexi-system .editor-data-table table,
+.node-type-dental-system .editor-table table, .node-type-dental-system .editor-data-table table
+ { width: 98% !important; }
+ 
+.node-type-tekscan-system-general .editor-table table td, .node-type-tekscan-system-general .editor-data-table table td,
+.node-type-flexi-misc-product .editor-table table td, .node-type-flexi-misc-product .editor-data-table table td,
+.node-type-flexi-system .editor-table table, .node-type-flexi-system .editor-data-table table,
+.node-type-dental-system .editor-table table td, .node-type-dental-system .editor-data-table table td
+{ padding:2px !important; }
+
+.body-field .editor-table table, .body-field .editor-data-table table {}
+
+.tabberlive {}
+
+.fieldgroup ul {padding-left:20px;}
+.fieldgroup ul li ul { position:relative; left:20px; }
+.fieldgroup ul, .fieldgroup ul li { list-style-type:disc;  }
+.fieldgroup > div { padding: 5px; }
+.field {  }
+
+.field-type-text strong, .related-item strong, .footer strong { font-weight:bold; }
+.field-type-text em, .content em { font-style:italic; }
+.field-type-text ul li { list-style-type:disc; }
+.field-type-text ul ul li { list-style-type:circle; }
+
+/* headers of system (and other) pages */
+.system-header {  margin-bottom:10px;}
+.system-header h2 { text-transform:lowercase;}
+.system-header-text { width: 65%; float:right; padding:3%; position:relative; }
+.system-header-text p, .system-header-text span, .system-header-text h2, .system-header-text h1 { padding:.5%; }
+.system-header p { }
+.system-header img{height: 150px; width:150px;}
+
+
+
+/* request info (sidebar form) */
+.request-info-holder {  }
+#request-info-content{ padding: 2%; }
+#request-info-content span.form-label { font-weight:bold; font-size:95%; }
+ #request-info-content span.phone {font-weight:bold; font-size:88%; }
+#request-info-content input[type="submit"] { width:100%; }
+
+
+/* landing page request info 
+.landing-page-lead .hidden-contact-form-content {display:block; position:inherit;}
+.landing-page-lead .hidden-contact-form-content .contact-form-close {display:none;}
+*/
+
+.contact-form-close { color: white }
+
+/* request info (hidden part) */
+.hidden-bg { position:fixed; width:100%; height:100%; top:0px; left:0px; 
+						opacity:.7; filter: alpha(opacity = 70);padding: 150px 300px 0px 150px; display:none;}
+.hidden-contact-form-content, .hidden-quote-form { position:absolute; top: 0px; margin-left: -675px; width: 800px; padding:50px; display:none;
+								 border:1px solid white; color:white; z-index:100;}
+.hidden-form-content a.contact-form-close { float:right; }
+.hidden-form-content table { margin: 10px 0; }
+.hidden-form-content table td { padding:.5% 0; }
+.hidden-form-content .form-label { font-weight:bold; }
+.hidden-form-content table thead td { font-weight:bold; font-size:110%; }
+.hidden-form-content .section-title { font-weight: bold; font-size:120%; padding-bottom:2%;}
+.hidden-form-content p { margin-bottom:2%; }
+.hidden-form-content .first_col { padding-right: 5px; }
+ 
+.related-nodes-section { margin-top:12px; }
+.related-node-header h3, .fieldgroup .featured-nodes h3  { margin-bottom:10px; }
+
+/* related products / items [general] */
+.related-item h4 a { text-decoration:none; font-family:"Century Gothic", Sans-serif, serif;}
+.related-item { }
+.related-item p, .related-item span, { padding: 1%; }
+.related-item p.description { font-style:italic; }
+.related-item p.location, .related-item p.date, .related-item p.booth { font-weight:bold; }
+.related-item-title { font-weight:bold; }
+.related-item img { hight:100px; width:100px; }
+
+.featured-nodes .related-item img, .related-nodes-section .related-item img { border:2px solid black; }
+
+/* related products inside tabs (system pages)*/
+.fieldgroup .related-item, .node-type-tekscan-page .related-item { width:225px; float:left; margin:3%; font-size:85%; }
+.fieldgroup .related-item-title, .node-type-tekscan-page .related-item-title { min-height:40px; display:block;}
+.fieldgroup .related-item img, .node-type-tekscan-page .related-item img { margin-right: 5px; float:left;}
+.fieldgroup h3, .field h3, .body-field h3 { font-size: 115%; }
+.fieldgroup h4, .field h4 { font-size: 110%; }
+.fieldgroup h5, .field h5 { font-size: 105%; }
+
+/* applications tab */
+#group_applications_benefits_holder .related-item-title { min-height:30px; display:block; }
+/*.field-field-applications embed {width:300px !important; height:300px !important;} */
+
+/* sidebars */
+.system-sidebar, .sidebar{ width:25.5%; float: right;}
+.system-sidebar-container, .sidebar-container { margin-bottom:5%;}
+.system-sidebar-header, .sidebar-header /*.system-sidebar-header em */{ padding:2px; margin:2px; /*border-bottom:2px solid black; */text-align:left; font-weight:bold; 
+									text-transform:uppercase; font-size:110%; border-bottom:1px solid #e47804;
+						 /*background: url("http://www.tekscan.net/images/new_bg/bkg_block-title.gif") repeat; */}			  
+.system-sidebar input[type=image] {width:95%;} 
+						  
+						  
+.system-sidebar .related-item, .sidebar .related-item { margin-bottom:5px; padding:2%; }
+.system-sidebar-container .related-item img, .sidebar-container .related-item img { margin-right:5px; margin-top:2px;  }
+.system-sidebar-container .related-item a, .sidebar-container a { font-weight:bolder; }
+.system-sidebar-container .related-item a:hover h4, .sidebar-container .related-item a:hover h4 { text-decoration:underline; }
+.system-sidebar-container .related-item p, .sidebar-container .related-item p { font-size:90%; }
+.system-sidebar-container .related-item p.date, .system-sidebar-container .related-item p.booth, .system-sidebar-container .related item
+p.location, .sidebar-container .related-item p.date, .sidebar-container .related-item p.booth, .sidebar-container .related-item p.location
+{ font-weight:bold;}
+.system-sidebar-container .related-item .date-headers, .sidebar-container .related-item .date-headers {}
+.system-sidebar .related-item .img-link, .sidebar .related-item .img-link { float:left;}
+.system-sidebar .related-item p.brief-description, .sidebar .related-item p.brief-description {clear:both;}
+
+
+/* sensors tab */
+
+.field-field-specifications > ul { padding-left:0px; }
+.field-field-specifications > ul > li { list-style-type: none; margin-top:5%;}
+.system-sensor img { height:140px; width: 140px; float:right; margin-right:5%; border:2px solid black;}
+
+
+.system-sensor-table table { border-collapse:collapse; border:1px solid black;}
+.system-sensor-table tr.header_top_row td.sensing-area-cell {border-bottom:1px solid black;}
+.system-sensor-table tr.header_top_row td.total-cell { border-left:1px solid black; border-right:1px solid black;}
+.system-sensor-table tr.header_bot_row {border-bottom:1px solid black;}
+.system-sensor-table tr.header_bot_row td.header-cell {border-left:1px solid black;}
+.system-sensor-table table td {padding: 4px;}
+.system-sensor-table table td.header-cell, .system-sensor-table table td.unit-cell{ font-weight:bold;}
+.system-sensor-table td.header-cell, .system-sensor-table td.data-cell { }
+.system-sensor-table table td.header-cell, .system-sensor-table table td.data-cell{ text-align:center;}
+.system-sensor-table table td.data-cell { border-left:1px solid black; }
+.system-sensor-table td.unit-cell{text-align:left; }
+.system-sensor .sensor-apps { margin-top:20px; width:380px;}
+.system-sensor .sensor-apps h5, .system-sensor .sensor-features h5 { font-weight:bold; }
+.system-sensor .sensor-apps ul, .system-sesnor .sensor-feaures ul { /*list-style-type:disc;*/ }
+.system-sensor { padding-bottom:10%; border-bottom:1px solid black; }
+
+.search-results .search-info {display:none;}
+
+#sidebar-right { position: absolute; top: 10px; right: 10px; background-color:white; color:black; border:1px solid black; width:150px;}
+#sidebar-right ul, #sidebar-right li{ margin:0;}
+#sidebar-right > div > div > ul { margin-left:5px;}
+#sidebar-right a, #sidebar-right a:visited { color:black; font-size:88%;}
+
+#footer {
+	clear: both;
+	color: #000;
+	text-align: center;
+	height: 100%;
+	border-top: 2px solid #2B4586;
+	
+	padding: 5px 25px 5px 25px;
+	}
+	
+#footer .footer p { font-family:"Century Gothic", Sans-serif, serif; font-size:small;}
+
+#inner-user-container {
+	margin: 0px auto;
+	width: 1150px;
+}
+#inner-user-container-page {
+	float: left;
+	width: 950px; 
+}
+#inner-user-container #sidebar-right {
+	position: relative;
+	float: right;
+	padding: 8px;
+	top: 10px;
+	right: auto;
+	margin: 0;
+}
+
+#user-login,
+.content-content > .profile, 
+#user-profile-form,
+#node-form,
+#node-admin-content
+{ padding: 5px 10px }
+
+#node-form .form-item .cke_skin_kama {
+width: 920px !important;
+}
+
+#node-form .content-multiple-table .form-item .cke_skin_kama {
+width: 920px !important;
+}
+
+fieldset.collapsible.collapsed { padding-bottom: 0.6em; }
+
+a.header-contact {
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+table.pressure-sensor-home-specs, .sensor-home-pressures table {
+	border: 1px solid black;
+}

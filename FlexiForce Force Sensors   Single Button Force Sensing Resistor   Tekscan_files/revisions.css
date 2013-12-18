@@ -1,0 +1,60 @@
+
+.admin-revisions table td, .admin-revisions table th { padding:10px 10px; 
+}
+.admin-revisions table th {font-weight:bold;}
+
+.tekscan-revisions-list {padding:1%;}
+.tekscan-revisions-list table {border:1px solid black; width:90%; margin-left:5%;}
+.tekscan-revisions-list table td.revision-basic-info {width:50%;}
+.tekscan-revisions-list table thead.tableHeader-processed th {border-bottom:none }
+.tekscan-revisions-list table tbody {border-top:1px solid black;}
+
+.tekscan-revisions-list table tbody tr.tekscan-revision-row {border-top: 1px solid black; border-bottom:none;}
+/*.tekscan-revisions-list table tbody tr {  border-right:1px solid black; border-left:1px solid black;}*/
+.tekscan-revisions-list table tbody tr.revision-status-approved-meta {border-bottom:1px solid black;}
+
+.tekscan-revisions-list table thead th {font-weight:bold; border-bottom:1px solid black;}
+.tekscan-revisions-list table td { padding:10px 10px;}
+
+.tekscan-revisions-list table a, .tekscan-revisions-list table a:visited {color:blue;}
+.tekscan-revisions-list table a.edit-revision-info {font-weight:bold; border:1px dotted blue; padding:1px;}
+
+tr.revision-status-created, tr.revision-status-submitted {background-color:#ffffcc;}
+tr.revision-status-mothballed {background-color:#cccccc;}
+tr.revision-status-approved, td.revision-current {background-color:#c0d9d9;}
+tr.revision-status-inactive {background-color:white;}
+
+#revision-record-info {margin:1%; padding:1%; border:2px solid black; background-color:#ffffcc;}
+#revision-record-info fieldset legend {font-weight:bold;}
+
+
+.revision-beta-page table tr.even, .revision-beta-page table tr.odd {border-bottom: 1px solid black;}
+#tekscan-revisions-admin-settings {padding:1%;}
+
+#revision-record-info div.form-checkboxes > div { float: left; padding-right:25px; min-width:125px;}
+#edit-revision-notes-wrapper {clear:both;}
+
+.revision-comment {
+  margin: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.revision-comment-posted-by {
+  display: inline-block;
+  font-weight: bold;
+  float: left;
+}
+.revision-comment-posted-at {
+  font-style: italic;
+  display: inline-block;
+  float: right;
+}
+.revision-comment-text {
+  padding-top: 15px;
+  clear: both;
+}
+
+.revision-notice {
+  color: #ff5555;
+}

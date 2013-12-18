@@ -1,0 +1,45 @@
+/* css */
+
+
+.main h1 { font-weight: bold; font-size:117%; text-align:center;}
+
+.section-title {font-size:110%;}
+
+/* catalog */
+#sensor-catalog-intro { width:75%; padding: 0 8%; }
+.node-type-sensor-catalog #Introduction {margin-bottom:0;}
+.node-type-sensor-catalog #group_introduction > div { margin-bottom:0; padding-bottom:0;}
+
+#shape-menu {margin-bottom:20px; margin-left:55px;}
+#shape-menu ul li{ display:inline; font-weight:bold; text-align:center; padding: 0 5%;}
+div.catalog-legend { margin:2% 0; }
+
+/* hidden hover imgs */
+.sensor_thumb img { height:200px; width:300px; }
+.sensor_thumb { position:absolute; border:1px solid black; /* left:700px; */top:300px; z-index:20; display:none; background-color:white; }
+
+.shape-container {margin-bottom:2%; }
+
+/* catalog tables */
+#sensor-catalog {padding-left:8%; padding-right:8%; padding-bottom:2%; padding-top:0; border: 1px 0px;}
+#sensor-catalog h4 {  font-variant:small-caps; font-size:105%; }
+#sensor-catalog table { font-size: 90%; border: 1px solid black; }
+#sensor-catalog table td { padding:4px; width:5%;} 
+#sensor-catalog tr.section-title-row td { padding:2px 4px; }
+#sensor-catalog tr.section-title-row td{ font-weight:bold; border-top: 1px solid black; text-align:center;}
+#sensor-catalog tr.title-row { font-weight:bold; }
+#sensor-catalog tr.unit-row td{ border-bottom: 1px solid black; }
+
+#sensor-catalog tr.data-row td {border-width:0 1px; border-style:solid; border-color:black;}
+#sensor-catalog tr.data-top-row td { border-top:1px solid black;}
+#sensor-catalog tr.hover-row td { color:#339; }
+#sensor-catalog a.top-anchor {font-size:88%;}
+#sensor-catalog tr.title-row td[colspan="2"], tr.sort-controls td[colspan="2"] { text-align:center; }
+#sensor-catalog a.sort-link { color: blue; }
+#sensor-catalog a.sort-link-active {font-weight:bold; text-decoration:none;}
+#sensor-catalog .title-section { border-width: 0px 1px; border-color:black; border-style:solid;}
+#sensor-catalog .title-right { border-right:1px solid black; }
+#sensor-catalog .title-left {border-left:1px solid black; }
+
+.node-type-sensor-catalog #group_introduction { padding:0 8%; }
+.node-type-sensor-catalog #group_introduction h1 { font-size:130%; font-weight:bold; }

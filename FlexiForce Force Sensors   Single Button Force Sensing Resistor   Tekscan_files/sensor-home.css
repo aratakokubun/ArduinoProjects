@@ -1,0 +1,16 @@
+
+div.sensor-home > div {padding:1.5% 0;}
+
+.pressure-sensor-home-specs {font-size:90%;}
+.pressure-sensor-home-specs thead th {font-weight:bold; padding:0 7px;}
+.sensor-meta-data ul li {list-style-type:disc; margin-left:5%;}
+
+.sensor-meta-data h3, .sensor-home-pressures h3 {margin-bottom:1%;}
+
+.sensor-home-pressures table {}
+.sensor-home-pressures table tr {background-color:white; border:0 none;}
+.sensor-home-pressures table tr.odd {border-bottom:1px solid black;}
+.sensor-home-pressures table tr td {padding:2px 8px; border-left:1px solid black; text-align:center;}
+.sensor-home-pressures table tr td.pressure-header{font-weight:bold; border-left:0 none;}
+
+
